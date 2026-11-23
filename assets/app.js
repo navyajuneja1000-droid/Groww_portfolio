@@ -196,7 +196,7 @@
       '<div class="ph-list"><div><b>Routing savings</b><span>₹8 Cr / yr</span></div><div><b>Payment success</b><span>+4 pp</span></div><div><b>Go-live TAT (Cards)</b><span>−53%</span></div></div>' +
       '<div class="ph-btns"><span>Watchlist</span><span>Hire</span></div></div></div>' +
       '<div class="float f1"><b class="up">₹8 Cr / yr</b>saved via routing</div>' +
-      '<div class="float f2"><b>65 → 300</b>sign-ups at Cogent</div>' +
+      '<div class="float f2"><b>~$110K</b>in 2 months at Cogent</div>' +
       '<div class="float qr"><img src="assets/qr-linkedin.svg" alt=""><span><b style="font-size:13px">Scan to connect</b>LinkedIn</span></div></div></div></section>';
   }
   var IDX = [
@@ -423,7 +423,7 @@
     $$("[data-nav]").forEach(function (a) { var on = a.getAttribute("data-nav") === p; a.classList.toggle("on", on); if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
   }
   var TICK = [["RECON", "₹15 Cr+", "recovered", "pp-recon"], ["ROUTING", "₹8 Cr", "/ yr saved", "pp-routing"], ["SUCCESS", "+4 pp", "payments", "pp-routing"], ["MIGRATION", "95%", "in 3 mo", "pp-migration"],
-    ["GOLIVE", "−53%", "TAT, Cards", "pp-golive"], ["SIGNUPS", "65 → 300", "4.6×", "h2h"], ["FOUNDIT", "₹6.94 L", "10.1% EBT", "foundit"], ["RECONOS", "17", "leak checks", "reconos"],
+    ["GOLIVE", "−53%", "TAT, Cards", "pp-golive"], ["H2H", "~$110K", "6x ROAS", "h2h"], ["FOUNDIT", "₹6.94 L", "10.1% EBT", "foundit"], ["RECONOS", "17", "leak checks", "reconos"],
     ["MIDPROC", "283", "tests", "mid"], ["PERFORA", "₹3 → ₹6 Cr", "plan", "perfora"], ["WOWWORLD", "₹5.2 Cr", "SOM", "wowworld"], ["NETWORK", "4", "launches", "pp-launches"]];
   function renderTick() {
     var one = TICK.map(function (t) { return '<a href="#/stock/' + t[3] + '"><b>' + t[0] + '</b><span class="v">' + t[1] + '</span><span class="c">▲ ' + t[2] + "</span></a>"; }).join("");

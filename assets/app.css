@@ -117,7 +117,8 @@ main { min-height: 60vh; outline: 0; }
 .view-in { animation: vin .28s ease both; }
 @keyframes vin { from { opacity: 0; transform: translateY(6px); } }
 .lay { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 40px; align-items: start; padding-top: 28px; padding-bottom: 48px; }
-.lay > aside { position: sticky; top: calc(var(--hdr-h) + 20px); display: grid; gap: 16px; }
+.lay > aside { position: sticky; top: calc(var(--hdr-h) + 20px); display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; min-width: 0; }
+.inv-row .tx { min-width: 0; }
 .sec { margin-bottom: 40px; }
 .sec-h { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 16px; }
 .sec-h h2 { font-size: 20px; font-weight: 600; }
